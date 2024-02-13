@@ -10,7 +10,36 @@ body{
     width: 100%;
     background-color: white;
     height: 600px;
+    padding: 100px;
 }
 .bg-piros{
     background-color: rgb(74, 4, 1);
+}
+.szov{
+    font-size: 25px;
+}
+.hm{
+    color: gray;
+    text-align: center;
+}
+.card-title, .card-text{
+    text-align: center;
+}
+.card-img-top{
+    height: 18rem;
+}
+.card{
+    margin-left: 50px;
+}
+.card:hover{
+    animation: xd 0.5s;
+
+}
+@keyframes xd {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
 }
