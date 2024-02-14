@@ -45,3 +45,13 @@ h4{
 .containerr>div{
     margin-bottom: 250px;
 }
+header{
+    background-image: url(yoy.png);
+    background-size: cover;
+    background-position: -10px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+.bg-piros{
+    background-color: rgb(74, 4, 1);
+}

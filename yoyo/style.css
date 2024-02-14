@@ -43,3 +43,10 @@ body{
         transform: scale(1.1);
     }
 }
+header{
+    background-image: url(yoy.png);
+    background-size: cover;
+    background-position: -10px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
